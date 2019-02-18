@@ -67,5 +67,5 @@ func runMain(cmd *cobra.Command, args []string) {
 		output = fmt.Sprintf("%fs", dur.Seconds())
 	}
 
-	fmt.Printf("time elapsed: %s\n", output)
+	fmt.Printf("%s\n", output)
 }
